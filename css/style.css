@@ -1,0 +1,80 @@
+	 
+#tabela{
+	width:100%;
+	border:solid 1px;
+	text-align:left;
+	border-collapse:collapse;
+}
+ 
+#tabela tbody tr{
+	border:solid 1px;
+	height:30px;
+	cursor:pointer;
+}
+
+#tabela tr{
+	border:solid 1px;
+}
+#tabela th{
+	border:solid 1px;
+}
+#tabela td{
+	border:solid 1px;
+}
+ 
+#tabela thead{
+	background:#f6f6f6;
+}
+ 
+#tabela thead th:nth-child(1){
+	width:100px;
+}
+ 
+#tabela input{
+	color:navy;
+	width:100%;
+}
+
+.pg-ctrl{
+    font:bold 16px verdana;
+    text-decoration: none; 
+    cursor: pointer;    
+    padding:4px;
+    margin:3px;
+    border: 0px;
+}
+
+.nxt{
+    font:bold 16px verdana;
+	text-decoration: none; 
+    cursor: pointer;  
+	margin:3px;
+}
+
+.pg {
+	font:10px verdana;
+    text-decoration: none; 
+    cursor: pointer;  
+    padding:3px 6px;
+    margin:3px;
+    border: 1px solid #cecece;
+}
+
+.pg-normal{
+    font:10px verdana;
+    text-decoration: none; 
+    cursor: pointer;  
+    padding:3px 6px;
+    margin:3px;
+    border: 1px solid #cecece;
+}
+
+.pg-selected {
+    font:10px verdana;
+    color: #333;
+    text-decoration: none;    
+    cursor: pointer;
+    padding:3px 6px;
+    margin:3px;
+    border: 1px solid #000;
+}

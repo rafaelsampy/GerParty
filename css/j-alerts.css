@@ -1,0 +1,45 @@
+#popup_container {
+	min-width: 300px;
+	max-width: 600px;
+	background: #FFFFFF;
+	color: #313131;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border:5px solid #605f5f;
+	z-index:9999999999999;
+}
+
+#popup_title {	margin-top:0px;		font-size: 16px;
+	font-weight: bold;
+	background-color:#605f5f;
+	text-align: center;
+	line-height: 40px;
+	text-transform:uppercase;
+	color: #FFFFFF;
+	cursor: default;
+}
+
+#popup_cancel{
+	background: #Fafafa;		height:35px; 		-moz-border-radius: 2px;	-webkit-border-radius: 2px;	border-radius: 2px;	border:1px solid #dcdcdc;	}#popup_ok{	color: #fafafa;	
+	background: #5cb85c;		height:35px; 		-moz-border-radius: 2px;	-webkit-border-radius: 2px;	border-radius: 2px;	border:1px solid #fafafa; }	#popup_content {
+	background: #FFFFFF;
+	padding: 15px 0px;
+	font-size:13px;
+}
+
+#popup_message {
+	text-align:center;
+	margin:15px 0 ;
+}
+#popup_panel {
+	text-align:center;
+}
+#popup_panel .botao{
+	width:100px;
+}
+
+#popup_prompt {
+	margin:10px 0;
+	width:90% !important;
+}

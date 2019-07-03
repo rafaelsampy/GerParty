@@ -1,0 +1,2 @@
+[15-Nov-2017 18:53:01 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/siste457/public_html/dev/funcoes/funcoes.php on line 5
+[15-Nov-2017 18:53:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/siste457/public_html/dev/funcoes/funcoes.php:5) in /home/siste457/public_html/dev/funcoes/funcoes.php on line 7
